@@ -25,6 +25,8 @@ const store = createStore(rootReducer,
 
 store.subscribe(() => {
   var c = "123" + "333"
+  var iavel = 123455667
+  iavel = iavel + 34
   saveState(store.getState());
 });
 
